@@ -1,0 +1,19 @@
+{
+    "Date": "26/01/24 - 00:07",
+    "Model": "multi_head_e",
+    "Dataset": "IMDB",
+    "Test accuracy": "80.190",
+    "ATTN_DIM": 64,
+    "BATCH_SIZE": 16,
+    "EMBED_DIM": 128,
+    "EPOCHS": 10,
+    "LR": 0.0001,
+    "MASK": "UNK",
+    "MAX_LEN": 256,
+    "NUM_HEADS": 6,
+    "POS": true,
+    "SCALE": true,
+    "TEST_SIZE": 25000,
+    "TRAIN_SIZE": 20000,
+    "VAL_SIZE": 5000
+}
