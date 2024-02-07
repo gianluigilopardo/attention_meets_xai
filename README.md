@@ -1,7 +1,7 @@
 
 # Attention Meets Post-hoc Interpretability: A Mathematical Perspective
 
-Welcome to the official repository for the paper *Attention Meets Post-hoc Interpretability: A Mathematical Perspective*. 
+Welcome to the official repository for the paper *[Attention Meets Post-hoc Interpretability: A Mathematical Perspective*](https://arxiv.org/abs/2402.03485). 
 
 ## Getting Started
 
