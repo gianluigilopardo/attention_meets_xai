@@ -1,7 +1,7 @@
 
 # Attention Meets Post-hoc Interpretability: A Mathematical Perspective
 
-Welcome to the official repository for the paper [*Attention Meets Post-hoc Interpretability: A Mathematical Perspective*](https://arxiv.org/abs/2402.03485). 
+Code for the paper [*Attention Meets Post-hoc Interpretability: A Mathematical Perspective*](https://arxiv.org/abs/2402.03485), ICML 2024. 
 
 ## Getting Started
 
@@ -29,3 +29,17 @@ The generated figures can be found in the  `results/paper`  directory.
 
 -   `quant_gradient.py`  and  `quant_lime.py`: These scripts contain the code for large-scale quantitative experiments for the Gradient and LIME sections, respectively.
 
+## Citation
+
+If you use this code or find our work helpful, please cite our paper:
+
+```bibtex
+@inproceedings{
+	lopardo2024attention,
+	title={Attention Meets Post-hoc Interpretability: A Mathematical Perspective},
+	author={Gianluigi Lopardo and Frederic Precioso and Damien Garreau},
+	booktitle={Forty-first International Conference on Machine Learning},
+	year={2024},
+	url={https://openreview.net/forum?id=wnkC5T11Z9}
+}
+```
