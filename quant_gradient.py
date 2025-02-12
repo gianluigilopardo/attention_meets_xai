@@ -117,7 +117,28 @@ for i, doc in enumerate(texts):
 
 
     def get_gradient(name):
+        """Creates a hook function to capture gradients for a specified parameter name.
+
+    This function generates a hook that, when attached to a model layer, 
+    records the gradient of the output with respect to the layer's inputs for a
+    specified parameter. The captured gradient is stored in a global dictionary
+    using the provided name as the key.
+
+    Args:
+        name (str): The name of the parameter for which the gradient is captured.
+    
+    Returns:
+        function: A hook function that records the gradient."""
         def hook(model, grad_input, grad_output):
+            """Stores the detached gradient output in a global dictionary.
+
+    This function serves as a backward hook to capture and store the gradient
+    output of a model layer in a global dictionary using a predefined key.
+
+    Args:
+        model: The model layer for which the hook is registered.
+        grad_input: A tuple containing gradients with respect to the input.
+        grad_output: A tuple containing gradients with respect to the output."""
             grad[name] = grad_output[0].detach()
 
         return hook
