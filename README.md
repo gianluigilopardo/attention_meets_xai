@@ -1,7 +1,7 @@
 
 # Attention Meets Post-hoc Interpretability: A Mathematical Perspective
 
-Code for the paper [*Attention Meets Post-hoc Interpretability: A Mathematical Perspective*](https://arxiv.org/abs/2402.03485), ICML 2024. 
+Code for the paper [*Attention Meets Post-hoc Interpretability: A Mathematical Perspective*](https://proceedings.mlr.press/v235/lopardo24a.html), ICML 2024. 
 
 ## Getting Started
 
